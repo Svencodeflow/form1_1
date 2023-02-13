@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <!-- Container für Kontaktformular -->
+    <form action="">
+        <div>
+            <!-- <label for="">Vorname:</label> -->
+            <!-- emmet: input:text -->
+            <input type="text" name="" id="" required placeholder="Vorname" class="vorname">
+        </div>
+        <div>
+            <label for="">Nachname:</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <input type="email" name="" id="" required>
+        </div>
+        <div>
+            <label for="">Alter:</label>
+            <input type="number" name="" id="" min="18" max="99">
+        </div>
+        <div>
+            <label for="">Passwort:</label>
+            <input type="password" name="" id="">
+        </div>
+        <div>
+            <label for="">Telefon:</label>
+            <input type="tel" name="" id="">
+        </div>
+        <div>
+            <h2>Input Radio - Gender:</h2>
+            <label for="">Female:</label>
+            <input type="radio" name="gender" id="">
+            <label for="">Male:</label>
+            <input type="radio" name="gender" id="">
+            <label for="">Div:</label>
+            <input type="radio" name="gender" id="">
+            <!-- um input:radio zu gruppieren den gleichen name vergeben -->
+        </div>
+        <div>
+            <h2>Input Checkbox - System:</h2>
+            <label for="">Windoof:</label>
+            <input type="checkbox" name="" id="">
+            <label for="">MacOs:</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Linux:</label>
+            <input type="checkbox" name="" id="">
+        </div>
+        <div>
+            <h2>Wähle einen Termin:</h2>
+            <label for="">Datum: </label>
+            <input type="date" name="" id="">
+        </div>
+        <div>
+            <h2>Bitte lade deine Dokumente hoch:</h2>
+            <label for="">File: </label>
+            <input type="file" name="" id="">
+        </div>
+        <div>
+            <h2>Wähle eine Uhrzeit:</h2>
+            <label for="">Select:</label>
+            <select name="" id="">
+                <option value="">10:00 Uhr</option>
+                <option value="">10:30 Uhr</option>
+                <option value="">11:00 Uhr</option>
+                <option value="">11:30 Uhr</option>
+            </select>
+        </div>
+        <div>
+            <h2>Sonstige Anmerkungen:</h2>
+            <label for="">Textarea: </label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <h2>Submit :</h2>
+            <!-- Formular abschicken an Backend -->
+            <input type="submit" value="Abschicken">
+        </div>
+        <div>
+            <h2>Button :</h2>
+            <!-- Einfach zum klicken für Interaktionen mit dem User -->
+            <input type="button" value="Drück mich">
+        </div>
+    </form>
+</body>
+
+</html>
